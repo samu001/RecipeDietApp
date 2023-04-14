@@ -6,12 +6,12 @@ Original App Design Project - README Template
 ## Table of Contents
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
-1. [Wireframes](#Wireframes)
+1. [Wireframes](#Wireframes)å
 2. [Schema](#Schema)
 
 ## Overview
 ### Description
-This application will allow the users to 
+This application will allow the users to search for recipes
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
@@ -31,6 +31,8 @@ This application will allow the users to
 * #1 Diet Selection: User should be able to select a diet type.
 * #2 Recipe List: User should see a list of recipes for the current diet.
 * #3 Recipe Steps:User should see a step by step process of the recipe.
+* #4 User should be able to log in
+* #5 User should be able to log out
 
 **Optional Nice-to-have Stories**
 
@@ -38,13 +40,14 @@ This application will allow the users to
 * Users should be able to like recipes and save them for easy access.
 
 ### 2. Screen Archetypes
-
+* Log in/Create account screen
+   * #1 Account Screen
 * Diet selection screen
-   * #1 Diet Selection
+   * #2 Diet Selection
 * Recipe list screen
-   * #2 Recipe List
+   * #3 Recipe List
 * Recipe detail screen
-   * #2 Recipe Steps
+   * #4 Recipe Steps
 
 ### 3. Navigation
 
@@ -55,6 +58,8 @@ This application will allow the users to
 
 **Flow Navigation** (Screen to Screen)
 
+* Account Log in 
+   * User information log in
 * Diets 
    * Recipes list for that diet
 * Recipes list
