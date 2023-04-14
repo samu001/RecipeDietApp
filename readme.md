@@ -11,7 +11,28 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-This application will allow the users to search for recipes
+This application will allow the users to search for food recipes according to different diets.
+
+**Submitted by Harry James Hocker**
+
+Team:
+* Cesar Borroto
+* Samuel Perez
+* Saily Hernandez
+* Harry James Hocker
+
+**Time spent: 55 hours spent in total**
+
+## Video Walkthrough
+### Account Creation
+<img src="https://user-images.githubusercontent.com/62515928/232084076-660a7e85-65d4-4e0e-b50e-0475eab3d637.gif" width="182" height="383"/>
+
+### Diets and Recipes
+![1](https://user-images.githubusercontent.com/62515928/232083909-7c79256f-2fcf-4040-8d9f-5fac7546f117.gif)
+
+
+
+
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
@@ -53,23 +74,32 @@ This application will allow the users to search for recipes
 
 **Tab Navigation** (Tab to Screen)
 
-* Diets Tab
-* Recipes Tab
+* User Account
+* Diets 
+* Recipes
+* Detailed Recipe
 
 **Flow Navigation** (Screen to Screen)
 
 * Account Log in 
-   * User information log in
+   * Takes to Diets list view
 * Diets 
    * Recipes list for that diet
 * Recipes list
    * Recipe details/steps for respective recipe
+* Account log out
+   * Returns to Account Log in Screen
 
 ## Wireframes
 <img src="https://i.imgur.com/99pPXe4.jpeg" width=600>
 
 ## Schema 
-[This section will be completed in Unit 9]
+Using FireBase Database, the data fields stored are:
+- Identifier (Email)
+- Created (Date when user was created)
+- Signed in (Date user last log in)
+- User UID (User ID provided by firebasae)
+
 ### Models
 User:
 username
